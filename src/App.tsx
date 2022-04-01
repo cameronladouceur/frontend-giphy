@@ -2,12 +2,7 @@ import React from "react";
 import "./App.css";
 import Gallery from "./components/Gallery";
 import Header from "./components/Header";
-import {
-  BrowserRouter as Router,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Details from "./components/Details";
 import Favorites from "./components/Favorites";
 import FourOhFour from "./components/FourOhFour";

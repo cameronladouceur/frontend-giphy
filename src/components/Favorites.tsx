@@ -3,7 +3,6 @@ import FavoritesContext from "../context/FavoritesContext";
 import "./Favorites.css";
 import Card from "./Card";
 import AuthContext from "../context/AuthContext";
-import { useNavigate } from "react-router-dom";
 import { signInWithGoogle } from "../firebaseConfig";
 
 const Favorites = () => {

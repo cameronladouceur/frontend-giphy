@@ -15,7 +15,7 @@ const Details = () => {
       setGif(response.data);
       console.log(response.data);
     });
-  }, []);
+  }, [id]);
 
   return (
     <div className="Details">
